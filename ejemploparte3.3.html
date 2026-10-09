@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<body>
+
+  <div id="contenedor">
+    <button data-fruta="Manzana">Manzana</button>
+    <button data-fruta="Pera">Pera</button>
+  </div>
+
+  <p id="resultado"></p>
+
+  <script>
+    const contenedor = document.getElementById("contenedor");
+    const resultado = document.getElementById("resultado");
+
+    contenedor.addEventListener("click", (event) => {
+      if (event.target.tagName === "BUTTON") {
+        const fruta = event.target.getAttribute("data-fruta");
+        resultado.textContent = `Seleccionaste: ${fruta}`;
+      }
+    });
+  </script>
+
+</body>
+</html>

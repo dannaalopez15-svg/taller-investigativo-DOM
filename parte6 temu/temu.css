@@ -1,0 +1,45 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f6f6f6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fb7701; 
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+    }
+    .tarjeta-producto {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 16px;
+      width: 220px;
+      margin-top: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .precio {
+      color: #de1212;
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    .btn-temu {
+      background-color: #fb7701;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-weight: bold;
+      width: 100%;
+      transition: background-color 0.3s;
+    }
+    .btn-temu:hover {
+      background-color: #e06900;
+    }
+ 
